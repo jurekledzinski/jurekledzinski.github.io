@@ -24,6 +24,7 @@ body {
     width: 50%;
     height: 40vh;
     background-color: coral;
+    transition: .5s ease-in-out;
 }
 
 .btn {
@@ -32,4 +33,10 @@ body {
     left: 30px;
     padding: 5px 20px;
     cursor: pointer;
+}
+
+.wrapper.disabled {
+    width: 0;
+    height: 0;
+    visibility: hidden;
 }
